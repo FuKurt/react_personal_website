@@ -1,0 +1,49 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0px;
+    max-width: 100%;
+}
+.home .title{
+    width: 100%;
+    text-align: start;
+    padding: 0 80px;
+}
+.home .title h1 p {
+    font-size: 60px;
+    line-height: 50px;
+}
+.home button{
+    font-size: 20px;
+    color: white;
+    background-color: royalblue;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+}
+.home .person_circle{
+    width: 400px;
+    height: 450px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: red;
+    margin-bottom: 150px;
+}
+.home .person_circle img {
+    width: 100%;
+}
+
+@media (min-width:991px){
+    .home{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .home .title, .home .person{
+        width: 50%;
+    }
+}

@@ -1,0 +1,9 @@
+.icons{
+    text-align: start;
+    margin-bottom: 20px;
+}
+.icons a i{
+    color: royalblue;
+    font-size: 50px;
+    margin-left: 20px;
+}
